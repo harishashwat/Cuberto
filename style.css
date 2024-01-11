@@ -42,3 +42,29 @@ html,body{
 #nav i{
     font-size: 18px;
 }
+
+#home #homemain{
+    width: 100%;
+    padding: 10vw 16vw;
+}
+
+#homemain h1{
+    letter-spacing: -.1vw;
+    font-weight: 400;
+}
+
+.headings{
+    display: flex;
+    gap: 40px;
+   
+   
+}
+
+#homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-weight: 400;
+    font-size: 7vw;
+    letter-spacing: -3px;
+    line-height: 1.3;
+}
