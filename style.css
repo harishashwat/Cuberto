@@ -68,3 +68,20 @@ html,body{
     letter-spacing: -3px;
     line-height: 1.3;
 }
+
+#homelast{
+    padding: 5vw 16vw;
+}
+
+#homelast p{
+    width: 50%;
+    font-size: 1.3vw;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    line-height: 1.7vw;
+}
+
+#homelast p::selection{
+    color: #fff;
+    background-color: #000;
+}
