@@ -85,3 +85,38 @@ html,body{
     color: #fff;
     background-color: #000;
 }
+
+#featured{
+    padding: 5vw 17vw;
+}
+
+#featured h1{
+    font-size: 3.5vw;
+    font-weight: 400;
+    /* line-height: 2vw; */
+}
+
+#featured h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    border: 2px solid green;
+    margin-top: 4vw;
+}
+
+#fleft{
+    min-height: inherit;
+    border: 2px solid blue;
+    width: 45%;
+}
+#fright{
+    min-height: inherit;
+    border: 2px solid red;
+    width: 45%;
+}
