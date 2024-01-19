@@ -90,13 +90,13 @@ html,body{
     padding: 5vw 17vw;
 }
 
-#featured h1{
+#fheading h1{
     font-size: 3.5vw;
     font-weight: 400;
     /* line-height: 2vw; */
 }
 
-#featured h1:nth-child(2){
+#fheadingh1:nth-child(2){
     color: transparent;
     -webkit-text-stroke: 1px black;
 }
@@ -105,18 +105,35 @@ html,body{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    min-height: 100vh;
-    border: 2px solid green;
-    margin-top: 4vw;
+    height: 100vh;
+    /* border: 2px solid green; */
+    margin-top: 6vw;
 }
 
 #fleft{
-    min-height: inherit;
+    overflow: auto;
+    height: inherit;
     border: 2px solid blue;
     width: 45%;
 }
+
+.fleftelem{
+    width: 100%;
+    height: inherit;
+    background-color: purple;
+}
+
 #fright{
-    min-height: inherit;
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: inherit;
+    /* border: 2px solid red; */
     width: 45%;
+}
+
+#fright .image{
+    height: 90%;
+    width: 90%;
+    background-color: purple;
 }
